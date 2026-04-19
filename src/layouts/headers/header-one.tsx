@@ -5,6 +5,7 @@ import Link from "next/link";
 import HeaderMenus from "./header-menus";
 import MobileOffcanvas from "@/components/offcanvas/mobile-offcanvas";
 import logo from "../../../public/assets/img/logo/logo.png";
+import logo2 from "../../../public/assets/img/logo/dmw.png";
 import logoWhite from "../../../public/assets/img/logo/logo-white.png";
 import useStickyHeader from "@/hooks/use-sticky-header";
 
@@ -30,7 +31,7 @@ const HeaderOne = () => {
                   <Link className="logo-1" href="/home-1">
                     <Image
                       style={{ width: "auto", height: "auto" }}
-                      src={logo}
+                      src={logo2}
                       alt="logo"
                       width={85}
                       height={26}
@@ -39,7 +40,7 @@ const HeaderOne = () => {
                   <Link className="logo-2" href="/home-1">
                     <Image
                       style={{ width: "auto", height: "auto" }}
-                      src={logoWhite}
+                      src={logo2}
                       alt="logo"
                       width={85}
                       height={26}
