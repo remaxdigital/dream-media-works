@@ -39,45 +39,93 @@ const service_data = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   img: ser_img_2,
-  //   subtitle: "Design Studio",
-  //   title: "Web Design",
-  //   text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
-  //   lists: [
-  //     "Logo Design",
-  //     "Graphic identity",
-  //     "Business communication",
-  //     "Web design",
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   img: ser_img_3,
-  //   subtitle: "Design Studio",
-  //   title: "Motion-Design",
-  //   text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
-  //   lists: [
-  //     "Logo Design",
-  //     "Graphic identity",
-  //     "Business communication",
-  //     "Web design",
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   img: ser_img_4,
-  //   subtitle: "Design Studio",
-  //   title: "Web Analytics",
-  //   text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
-  //   lists: [
-  //     "Logo Design",
-  //     "Graphic identity",
-  //     "Business communication",
-  //     "Web design",
-  //   ],
-  // },
+  {
+    id: 2,
+    img: ser_img_2,
+    subtitle: "",
+    title: "Creative & Content",
+    text: "We develop high-quality creative content and visual assets that strengthen brand identity, engage audiences, and support consistent marketing performance.",
+    lists: [
+      {
+        title: "Content Production",
+        text: "From concept to final cut, we bring your brand to life. High-quality content, produced with purpose.",
+      },
+      {
+        title: "Creative Development",
+        text: "Big ideas, beautifully executed. We build creatives that stop the scroll and stay in memory.",
+      },
+      {
+        title: "Campaign Production",
+        text: "From the first idea to the final launch, we handle it all. Campaigns that are built to make noise.",
+      },
+      {
+        title: "Visual Designs (Graphic Designing)",
+        text: "Design that speaks before you even say a word. We create visuals that are bold, beautiful, and unmistakably you.",
+      },
+      {
+        title: "Branding & Identity",
+        text: "Your brand is more than a logo — it’s a feeling. We build identities that are memorable, meaningful, and made to last.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: ser_img_3,
+    subtitle: "",
+    title: "Photography",
+    text: "We offer professional photography services for products, events, and special occasions, delivering high-resolution visuals that effectively represent your brand.",
+    lists: [
+      {
+        title: "Product Photography",
+        text: "Your product deserves to be seen at its very best. We shoot images that are crisp, compelling, and built to sell.",
+      },
+      {
+        title: "Wedding Photography & Videography",
+        text: "Every moment of your special day, captured forever. Timeless photographs and films that tell your love story beautifully.",
+      },
+      {
+        title: "Pre-Wedding Shoot",
+        text: "Just the two of you, before the big day. We capture your love story in frames you’ll cherish forever.",
+      },
+      {
+        title: "Event Photography & Videography",
+        text: "Every event has moments worth remembering. We make sure none of them slip away.",
+      },
+      {
+        title: "Toddlers Shoot",
+        text: "Little moments, big memories. We capture your little one’s magic in frames you’ll treasure for a lifetime.",
+      },
+      {
+        title: "Maternity Shoot",
+        text: "The most beautiful chapter of your life, captured with love. Glowing, gorgeous, and entirely yours.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: ser_img_4,
+    subtitle: "",
+    title: "Web & Tech",
+    text: "We design and develop responsive, SEO-optimized websites and landing pages focused on performance, user experience, and measurable business growth.",
+    lists: [
+      {
+        title: "Website Development - Static, Dynamic, E-commerce",
+        text: "Your website is your biggest digital asset — we build it right. Clean, fast, and crafted to convert, whatever your needs.",
+      },
+      {
+        title: "Landing Page",
+        text: "One page, one goal, one chance to convert. We build landing pages that turn visitors into action-takers.",
+      },
+      {
+        title: "Webisite Maintainance",
+        text: "Your website needs care — we make sure it always stays at its best. Fast, secure, and running smoothly, always.",
+      },
+      {
+        title: "SEO & Optimisation",
+        text: "A beautiful website means nothing if no one can find it. We optimise your site to rank higher, load faster, and perform better.",
+      },
+    ],
+  },
 ];
 
 export default function ServiceSix() {
@@ -92,7 +140,7 @@ export default function ServiceSix() {
                   <Image
                     src={item.img}
                     alt="service-img"
-                    style={{ height: "auto" }}
+                    style={{ height: "100%" }}
                   />
                 </div>
               </div>

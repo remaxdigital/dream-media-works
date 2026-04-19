@@ -3,55 +3,48 @@ import Image from "next/image";
 import LineTextFour from "../line-text/line-text-4";
 import { UpArrow } from "../svg";
 import Link from "next/link";
-// images
-import p_img_1 from "@/assets/img/home-05/project/project-4.jpg";
-import p_img_2 from "@/assets/img/home-05/project/project-5.jpg";
-import p_img_3 from "@/assets/img/home-05/project/project-6.jpg";
-import p_img_4 from "@/assets/img/home-05/project/project-7.jpg";
-import p_img_5 from "@/assets/img/home-05/project/project-8.jpg";
-import p_img_6 from "@/assets/img/home-05/project/project-9.jpg";
 
 const project_data = [
   {
     id: 1,
-    title: "Art Direction",
-    category: "Branding",
-    img: p_img_1,
+    title: "",
+    category: "Photoshoot",
+    img: "/assets/img/our-work/77.png",
     year: 2024,
   },
   {
     id: 2,
-    title: "Petit Navire",
-    category: "Branding",
-    img: p_img_2,
+    title: "",
+    category: "Photoshoot",
+    img: "/assets/img/our-work/79.png",
     year: 2024,
   },
   {
     id: 3,
-    title: "Big dream",
+    title: "",
     category: "Branding",
-    img: p_img_3,
+    img: "/assets/img/our-work/MM Pictures.png",
     year: 2024,
   },
   {
     id: 4,
-    title: "The Stage",
+    title: "",
     category: "Branding",
-    img: p_img_4,
+    img: "/assets/img/our-work/MM Pictures (1).png",
     year: 2024,
   },
   {
     id: 5,
-    title: "Big dream",
+    title: "",
     category: "Branding",
-    img: p_img_5,
+    img: "/assets/img/our-work/MM Pictures (2).png",
     year: 2024,
   },
   {
     id: 6,
-    title: "Sed Lectus",
+    title: "",
     category: "Concept",
-    img: p_img_6,
+    img: "/assets/img/our-work/MM Pictures (3).png",
     year: 2024,
   },
 ];
@@ -88,6 +81,8 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                       <Image
                         src={item.img}
                         alt="project-img"
+                        width={900}
+                        height={700}
                         style={{ height: "auto" }}
                       />
                     </div>
