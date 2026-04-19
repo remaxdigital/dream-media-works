@@ -22,6 +22,7 @@ import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -45,7 +46,6 @@ const HomeFourMain = () => {
 
   return (
     <Wrapper>
-
       {/* header area start */}
       <HeaderFour />
       {/* header area end */}
@@ -53,7 +53,6 @@ const HomeFourMain = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-
             {/* hero area start */}
             <HeroBannerFour />
             {/* hero area end */}
@@ -70,7 +69,6 @@ const HomeFourMain = () => {
             <BrandThree />
             {/* brand area end */}
 
-
             {/* project area start */}
             <ProjectFour />
             {/* project area end */}
@@ -86,11 +84,11 @@ const HomeFourMain = () => {
             {/* contact area start */}
             <ContactOne />
             {/* contact area end */}
-
           </main>
 
           {/* footer area */}
-          <FooterFour />
+          <FooterOne />
+
           {/* footer area */}
         </div>
       </div>
