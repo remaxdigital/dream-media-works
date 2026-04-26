@@ -26,7 +26,7 @@ const HeaderOne = () => {
         >
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-2 col-lg-2 col-6">
+              <div className="col-xl-1 col-lg-2 col-6">
                 <div className="tp-header-logo">
                   <Link className="logo-1" href="/home-1">
                     <Image
@@ -48,7 +48,7 @@ const HeaderOne = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-xl-8 col-lg-9 d-none d-xl-block">
+              <div className="col-xl-10 col-lg-9 d-none d-xl-block">
                 <div className="tp-header-menu header-main-menu text-center">
                   <nav className="tp-main-menu-content">
                     {/* header menus */}
@@ -57,7 +57,7 @@ const HeaderOne = () => {
                   </nav>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg col-6">
+              <div className="col-xl-1 col-lg col-6">
                 <div className="tp-header-bar text-end">
                   <button
                     className="tp-offcanvas-open-btn"
