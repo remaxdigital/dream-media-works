@@ -18,7 +18,13 @@ const HeaderMenus = () => {
                         <div className="homemenu-thumb-wrap mb-20">
                           <div className="homemenu-thumb fix">
                             <Link href={home_menu.link}>
-                              <Image style={{ width: "auto", height: "auto" }} src={home_menu.img} alt="home-img" width={250} height={235}/>
+                              <Image
+                                style={{ width: "auto", height: "auto" }}
+                                src={home_menu.img}
+                                alt="home-img"
+                                width={250}
+                                height={235}
+                              />
                             </Link>
                           </div>
                         </div>
@@ -52,7 +58,7 @@ const HeaderMenus = () => {
                                     <li key={i}>
                                       <Link href={psm.link}>{psm.title}</Link>
                                     </li>
-                                  )
+                                  ),
                                 )}
                               </ul>
                             </div>
@@ -70,7 +76,7 @@ const HeaderMenus = () => {
                                     <li key={i}>
                                       <Link href={psm.link}>{psm.title}</Link>
                                     </li>
-                                  )
+                                  ),
                                 )}
                               </ul>
                             </div>
@@ -83,12 +89,19 @@ const HeaderMenus = () => {
                     <div className="tp-megamenu-shop-style">
                       <div className="tp-shop-banner-left p-relative">
                         <div className="tp-shop-banner-thumb">
-                          <Image style={{ width: "100%", height: "auto" }} src={banner1} alt="image" />
+                          <Image
+                            style={{ width: "100%", height: "auto" }}
+                            src={banner1}
+                            alt="image"
+                          />
                         </div>
                         <div className="tp-shop-banner-content">
                           <h4 className="tp-shop-banner-title">Featured</h4>
                           <span>Explore the selected portfolio pages</span>
-                          <Link className="tp-shop-btn" href="/portfolio-standard">
+                          <Link
+                            className="tp-shop-btn"
+                            href="/portfolio-standard"
+                          >
                             View Work
                           </Link>
                         </div>
@@ -104,7 +117,7 @@ const HeaderMenus = () => {
                 <div className="tp-megamenu-portfolio p-relative">
                   <div className="tp-megamenu-portfolio-banner">
                     <Image
-                    style={{ width: "100%", height: "auto" }}
+                      style={{ width: "100%", height: "auto" }}
                       src="/assets/img/menu/portfolio-menu/portfolio.png"
                       alt="image"
                       width={438}
@@ -135,7 +148,7 @@ const HeaderMenus = () => {
                                           ))}
                                         </ul>
                                       </div>
-                                    )
+                                    ),
                                   )}
                                 </div>
                               </div>
@@ -162,7 +175,7 @@ const HeaderMenus = () => {
                                   </div>
                                 </div>
                               </div>
-                            )
+                            ),
                           )}
                         </div>
                       </div>

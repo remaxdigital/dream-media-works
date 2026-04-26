@@ -61,11 +61,12 @@ const HeroBannerOne = () => {
             </div>
             <div className="tp-hero-content tp_fade_bottom">
               <p>
-                <span></span>
                 Great brands don’t wait to be discovered — they make it
                 impossible to be ignored. At Dream MediaWorks, we blend
                 innovation, strategy, and creativity to put you exactly where
-                you need to be. Ambitious brands, meet your people.
+                you need to be.
+                <br />
+                Ambitious brands, meet your people.
               </p>
             </div>
           </div>
